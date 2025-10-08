@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Daily World: Your source for global press content, breaking news, and in-depth journalism.">
+    <title>Daily World - Global Press Content & News</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>Daily World</h1>
+                    <p>Global Press & Insights</p>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#articles">Articles</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>Stay Informed with Daily World</h2>
+                <p>Delivering unbiased press releases, breaking news, and expert analysis from around the globe. Your trusted source for what matters.</p>
+                <a href="#news" class="cta-button">Explore Latest News</a>
+            </div>
+        </section>
+
+        <section id="news" class="news-section">
+            <div class="section-header">
+                <h2>Breaking Press News</h2>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search news articles..." id="searchInput">
+                </div>
+            </div>
+            <div class="news-grid" id="newsGrid">
+                <article class="news-card">
+                    <img src="https://via.placeholder.com/350x200/007bff/ffffff?text=World+Markets" alt="Global Markets">
+                    <h3>Global Trade Talks Advance</h3>
+                    <p>International negotiations yield progress on tariffs, boosting economic optimism worldwide.</p>
+                    <span class="date">October 16, 2023</span>
+                </article>
+                <article class="news-card">
+                    <img src="https://via.placeholder.com/350x200/28a745/ffffff?text=Climate+Summit" alt="Climate Summit">
+                    <h3>Historic Climate Commitments</h3>
+                    <p>Nations pledge billions for green energy, marking a turning point in environmental policy.</p>
+                    <span class="date">October 15, 2023</span>
+                </article>
+                <article class="news-card">
+                    <img src="https://via.placeholder.com/350x200/ffc107/000000?text=AI+Ethics" alt="AI Ethics">
+                    <h3>AI Regulations Take Shape</h3>
+                    <p>Governments collaborate on frameworks to ensure ethical use of artificial intelligence.</p>
+                    <span class="date">October 14, 2023</span>
+                </article>
+            </div>
+        </section>
+
+        <section id="articles" class="articles-section">
+            <h2>In-Depth Press Articles</h2>
+            <div class="articles-grid">
+                <article class="article-card">
+                    <h3>The Evolution of Digital Journalism</h3>
+                    <p>Examining how social media and AI are reshaping press freedom and reporting standards.</p>
+                    <a href="#" class="read-more">Read Full Story</a>
+                </article>
+                <article class="article-card">
+                    <h3>Corporate Press Releases in a Transparent Era</h3>
+                    <p>Analyzing the role of PR in building trust amid rising demands for authenticity.</p>
+                    <a href="#" class="read-more">Read Full Story</a>
+                </article>
+                <article class="article-card">
+                    <h3>Global Media Mergers and Their Impact</h3>
+                    <p>Insights into how consolidations affect diverse voices in international news.</p>
+                    <a href="#" class="read-more">Read Full Story</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Submit Press Content or Contact Us</h2>
+            <p>For press releases, tips, or partnerships: <a href="mailto:press@dailyworld.com">press@dailyworld.com</a>. Join our newsletter for daily updates.</p>
+            <div class="social-links">
+                <a href="#">Twitter</a> | <a href="#">LinkedIn</a> | <a href="#">RSS</a>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Share your story or press release..." rows="5" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Daily World. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
