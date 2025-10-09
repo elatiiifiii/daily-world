@@ -1,0 +1,5 @@
+mkdir docs
+echo # Documentation  docsREADME.md
+git add docsREADME.md
+git commit -m Add missing docs directory
+git push
